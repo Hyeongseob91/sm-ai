@@ -36,6 +36,7 @@ kiwipiepy = "0.*"
 konlpy = "0.*"
 
 # 데이터 처리 및 분석 관련 패키지
+numpy = ">=1.26.0,<2.0"
 pandas = "2.*"
 rank-bm25 = "0.*"
 
@@ -92,8 +93,7 @@ pinecone = "5.*"
 wikipedia = "1.*"
 scikit-learn = "1.*"
 ipykernel = "^7.1.0"
-pdfminer = "^20191125"
-pdfminer-six = "^20250506"
+pdfminer-six = ">=20221105,<20240000"
 
 [build-system]
 requires = ["poetry-core"]
