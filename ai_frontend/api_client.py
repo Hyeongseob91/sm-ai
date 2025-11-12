@@ -18,13 +18,13 @@ API_PREFIX = "/api/v1"
 # ============================================
 
 def chat_stream(
-    session_id: str,
-    message: str,
-    model: str,
-    prompt_file: str,
-    task: str = "",
-    temperature: float = 0.0
-) -> Iterator[str]:
+        session_id: str,
+        message: str,
+        model: str,
+        prompt_file: str,
+        task: str = "",
+        temperature: float = 0.0
+    ) -> Iterator[str]:
     """
     스트리밍 채팅
 

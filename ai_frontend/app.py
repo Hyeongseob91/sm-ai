@@ -2,7 +2,7 @@ import streamlit as st
 
 # 페이지 설정
 st.set_page_config(
-    page_title="SOUNDMIND AI System",
+    page_title="Soundmind AI System",
     page_icon="🧠",
     layout="wide"
 )
@@ -25,10 +25,10 @@ Soundmind AI System은 LangChain과 OpenAI를 활용한 AI 솔루션 플랫폼�
 좌측 사이드바에서 원하는 기능을 선택하여 사용할 수 있습니다.
 """)
 
-st.markdown("##")
+st.markdown("###")
 
 # 기능 소개 섹션
-st.header("📌 주요 기능")
+st.subheader("📌 주요 기능")
 st.markdown("##")
 
 # 2개의 컬럼으로 기능 카드 배치
