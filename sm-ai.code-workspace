@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "ai_backend"
+		},
+		{
+			"path": "ai_frontend"
+		}
+	],
+	"settings": {
+		// ai_backend folder path
+		"[ai_backend]":{
+			"python.defaultInterpreterPath": "C:/Users/vrsoft/AppData/Local/pypoetry/Cache/virtualenvs/sm-ai-backend-MgsFyMfC-py3.11/Scripts/python.exe"
+		},
+		// ai_frontend folder path
+		"[ai_frontend]":{
+			"python.defaultInterpreterPath": "C:/Users/vrsoft/Desktop/soundmind/sm-ai/ai_frontend/venv/Scripts/python.exe"
+		}
+	}
+}

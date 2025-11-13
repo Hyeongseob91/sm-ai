@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "sm-ai-backend"
-version = "1.0.0"
+version = "0.1.2"
 description = "Soundmind AI System Backend API"
-authors = ["Soundmind Team"]
+authors = ["soundmind <hskim2@soundmind.life>"]
 license = "MIT"
 readme = "README.md"
 package-mode = false

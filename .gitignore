@@ -4,6 +4,7 @@
 # 파일
 .DS_Store
 *.env
+
 # *.db
 *.pdf
 *.pkl
@@ -172,6 +173,7 @@ ENV/
 env.bak/
 venv.bak/
 /ai_backend/.venv
+
 
 # Spyder project settings
 .spyderproject
